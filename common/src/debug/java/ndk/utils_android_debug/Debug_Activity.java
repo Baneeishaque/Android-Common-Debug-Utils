@@ -1,7 +1,6 @@
 package ndk.utils_android_debug;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,11 +18,6 @@ public class Debug_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_debug);
 
         button_pandora = findViewById(R.id.button_pandora);
-        button_pandora.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Pandora.get().open();
-            }
-        });
+        button_pandora.setOnClickListener(v -> Pandora.get().open());
     }
 }
