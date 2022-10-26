@@ -4,7 +4,8 @@
     <application>
         <activity
             android:name=".Debug_Activity"
-            android:label="@string/debugging_tools">
+            android:label="@string/debugging_tools"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
