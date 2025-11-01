@@ -81,7 +81,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
 
-    implementation project(path: ':Resources:common')
+    implementation project(path: ':common_resources')
 
     debugImplementation 'com.github.whataa:pandora:2.1.0'
 }
